@@ -1,6 +1,6 @@
 services:
   postgres_gamestats:
-    image: bitnamilegacy/postgresql:17.6.0-debian-12-r0
+    image: soldevelo/postgresql:17.6.0-debian-12-r0
     container_name: postgres_gamestats
     environment:
       POSTGRES_USER: ${POSTGRESQL_USERNAME}
